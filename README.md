@@ -1,12 +1,27 @@
-# React + Vite
+# Mika Pärssinen Portfolio Website ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern portfolio website built with React and Tailwind CSS, featuring a responsive design with interactive components and a clean UI.
 
-Currently, two official plugins are available:
+## Features 🚀
+- Responsive design for all device sizes 📱💻
+- Interactive project showcase with detailed modals 🖼️
+- Animated starry background ✨
+- Smooth scrolling navigation 🔄
+- Contact form with form validation and submission 📬
+- Skills visualization 📊
+- Modern UI with hover animations ⚡
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used 💻
+- React ⚛️
+- Tailwind CSS 🎨
+- Vite (for build tooling and development server) ⚡
+- Lucide React (for icons) 🔍
+- Formspree (for form submissions) 📨
 
-## Expanding the ESLint configuration
+## Customization 🛠️
+- To update project information, edit the files in the `data/` directory 📁
+- To change the styling, modify the Tailwind classes in the component files 🎭
+- To update the contact form endpoint, change the URL in `hooks/useFormSubmit.js` 🔗
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License 📄
+MIT
