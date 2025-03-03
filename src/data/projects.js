@@ -8,7 +8,7 @@ export const mlProjects = [
       image: "/api/placeholder/600/350",
       imageSrc: "https://images.pexels.com/photos/4176427/pexels-photo-4176427.jpeg",
       imageCaption: "Bottles on an industrial production line",
-      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning",
+      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning/tree/main/Project",
       fullReport: {
         title: "Anomaly detection and image classification of glass bottles in manufacturing",
         authors: "Mika Pärssinen and Marcus Hammarström",
@@ -24,7 +24,7 @@ export const mlProjects = [
       tech: ["Python", "Hierarchical Clustering", "DBSCAN", "Data Analysis"],
       image: "/api/placeholder/600/350",
       imageSrc: "https://images.pexels.com/photos/6266627/pexels-photo-6266627.jpeg",
-      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning",
+      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning/tree/main/INL2",
       imageCaption: "Credit cards and money",
       fullReport: {
         title: "Problem solving with unsupervised learning",
@@ -41,7 +41,7 @@ export const mlProjects = [
       tech: ["Python", "SVM", "Random Forest", "Naive Bayes", "Classification"],
       image: "/api/placeholder/600/350",
       imageSrc: "https://images.pexels.com/photos/3684122/pexels-photo-3684122.jpeg",
-      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning",
+      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning/tree/main/INL1",
       imageCaption: "Fottball players",
       fullReport: {
         title: "Comparison of the performance of different supervised models",
@@ -58,7 +58,7 @@ export const mlProjects = [
       tech: ["Python", "TensorFlow", "CNN", "ANN", "Deep Learning"],
       image: "/api/placeholder/600/350",
       imageSrc: "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg",
-      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning",
+      githubRepo: "https://github.com/MikaParssinen/Applied-Machine-Learning/tree/main/INL3",
       imageCaption: "Written digits",
       fullReport: {
         title: "Neural networks and Deep learning",
