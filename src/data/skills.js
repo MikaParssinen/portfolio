@@ -18,7 +18,8 @@ export const programmingSkills = [
     "Data Preprocessing",
     "Deep Learning",
     "Keras",
-    "Apache Spark"
+    "Apache Spark",
+    "Pandas"
   ];
   
   // Tools & Frameworks Skills
