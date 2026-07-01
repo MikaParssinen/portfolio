@@ -1,12 +1,26 @@
 
-
-
+body {
+    background-color: black;
+    color: rgb(238, 240, 241);
+    padding: 20px;
+}
 
 
 .content {
-    color: green;
+    display: flex;
+    height: 800px;
 }
 
-.meny {
-    color: tomato;
+.nav {
+    background-color: #e8ecf065;
+    width: 10%;
+    height: 100%;
+    padding: 20px;
+}
+
+.contentbox {
+    background-color: #0f80f165;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
 }
