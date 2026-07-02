@@ -17,10 +17,29 @@ body {
     height: 100%;
     padding: 20px;
 }
+.nav a {
+    display: block;
+    color: inherit;
+}
 
 .contentbox {
     background-color: #0f80f165;
     width: 80%;
     height: 100%;
     padding: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.page {
+    display: none;
+}
+
+.page:target {
+    display: block;
+}
+
+<!-- Default page, when nothing is in the hash --->
+.contentbox:not(:has(.page:target)) #about {
+    display: block;
 }
