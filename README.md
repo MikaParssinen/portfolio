@@ -1,2 +1,3 @@
-# mikav5
-Simple html/css only portfolio
+# Portfolio
+Simple html and css portfolio. 
+
