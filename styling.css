@@ -1,45 +1,40 @@
 
 body {
     background-color: black;
-    color: rgb(238, 240, 241);
-    padding: 20px;
+    color: rgba(221, 221, 219, 0.89);
+    font-size: large;
 }
-
 
 .content {
     display: flex;
-    height: 800px;
+    height: clamp(500px, 90vh, 600px);
+    width: clamp(320px, 90vw, 800px);
 }
 
 .nav {
-    background-color: #e8ecf065;
     width: 10%;
     height: 100%;
     padding: 20px;
+    border-right: solid  rgba(221, 221, 219, 0.89);
 }
+
 .nav a {
     display: block;
     color: inherit;
 }
 
+small {
+    font-size: x-small;
+}
+
+hr {
+    border-color: rgba(221, 221, 219, 0.89);
+}
+
 .contentbox {
-    background-color: #0f80f165;
     width: 80%;
     height: 100%;
     padding: 20px;
     overflow-y: scroll;
     scrollbar-width: none;
-}
-
-.page {
-    display: none;
-}
-
-.page:target {
-    display: block;
-}
-
-<!-- Default page, when nothing is in the hash --->
-.contentbox:not(:has(.page:target)) #about {
-    display: block;
 }
