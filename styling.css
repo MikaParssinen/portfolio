@@ -1,7 +1,7 @@
 
 body {
     background-color: black;
-    color: rgba(221, 221, 219, 0.89);
+    color: rgba(238, 238, 236, 0.925);
     font-size: large;
 }
 
@@ -23,18 +23,14 @@ body {
     color: inherit;
 }
 
-small {
-    font-size: x-small;
-}
-
-hr {
-    border-color: rgba(221, 221, 219, 0.89);
-}
-
 .contentbox {
     width: 80%;
     height: 100%;
     padding: 20px;
     overflow-y: scroll;
     scrollbar-width: none;
+}
+
+hr {
+    border-color: rgba(221, 221, 219, 0.89);
 }
