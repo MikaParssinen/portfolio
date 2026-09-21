@@ -11,6 +11,7 @@
             <h2>Mika</h2>
             <a href="#about">About me</a>
             <a href="#projects">Projects</a>
+            <a href="#about-you">About you</a>
         </div>
 
         <div class="contentbox">   
@@ -27,7 +28,34 @@
                 <h3>Lux</h3>
                 <p>Small game engine in C++ with vulkan api, that focuses on volumetric lightning.</p>
             </div>
+            
+            <hr>
+
+            <div id="about-you" class="page">
+                <h2>About you</h2>
+                <ul id="visitor-info">
+                    <li>If javascript is disabled the list remains empty</li>
+                </ul>
+
+
+            </div>
+            
+            
         </div>
+
+
+
     </div>
+
+    <script>
+    const info = document.getElementById('visitor-info');
+    const facts = []; 
+
+    facts.push(`Browser: ${navigator.userAgent}`);
+    facts.push(`Language: ${navigator.language}`);
+
+    info.innerHTML = facts.map(f => `<li>${f}</li>`).join('');
+    </script>
+    
 </body>
 </html>
