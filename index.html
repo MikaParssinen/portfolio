@@ -5,48 +5,42 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <div class="content">
+    
+    <div class="blob"></div>
+        <div class="content">
 
-        <div class="nav">
-            <h2>Mika</h2>
-            <a href="#about">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="#about-you">About you</a>
+            <div class="nav">
+                <h2>Mika</h2>
+                <a href="#about">About me</a>
+                <a href="#projects">Projects</a>
+                <a href="#about-you">About you</a>
+            </div>
+
+            <div class="contentbox">   
+                <div id="about" class="page">
+                    <h2>About me</h2>
+                    <p> 
+                        I work as a software test developer at Westermo Network Technologies, where I focus on automation using Python and Bash scripting.
+                        I hold a Bachelor's degree in Computer Science. 
+                    </p>
+                </div>
+                <hr>
+                <div id="projects" class="page">
+                    <h2>Projects</h2>
+                    <h3>Lux</h3>
+                    <p>Small game engine in C++ with vulkan api, that focuses on volumetric lightning.</p>
+                </div>
+                
+                <hr>
+
+                <div id="about-you" class="page">
+                    <h2>About you</h2>
+                    <ul id="visitor-info">
+                        <li>If javascript is disabled the list remains empty</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <div class="contentbox">   
-            <div id="about" class="page">
-                <h2>About me</h2>
-                <p> 
-                    I work as a software test developer at Westermo Network Technologies, where I focus on automation using Python and Bash scripting.
-                    I hold a Bachelor's degree in Computer Science. 
-                </p>
-            </div>
-            <hr>
-            <div id="projects" class="page">
-                <h2>Projects</h2>
-                <h3>Lux</h3>
-                <p>Small game engine in C++ with vulkan api, that focuses on volumetric lightning.</p>
-            </div>
-            
-            <hr>
-
-            <div id="about-you" class="page">
-                <h2>About you</h2>
-                <ul id="visitor-info">
-                    <li>If javascript is disabled the list remains empty</li>
-                </ul>
-
-
-            </div>
-            
-            
-        </div>
-
-
-
-    </div>
-
     <script>
     const info = document.getElementById('visitor-info');
     const facts = []; 
