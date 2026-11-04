@@ -83,7 +83,3 @@
   --warning: oklch(82.03% 0.1394 70.45);
   --warning-foreground: oklch(21.03% 0.0059 70.45);
 }
-
-body {
-  background-color: black;
-}
